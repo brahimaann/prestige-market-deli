@@ -672,6 +672,54 @@ export const REVIEWS: Review[] = [
     text: "Super cute and cozy coffee shop! Service was fast. Latte and matcha were tasty, and the egg and onion pierogi was delicious. Highly recommend!",
     stars: 4,
     date: "Jan 5, 2026"
+  },
+  {
+    author: "Dilyara Matus from Maple Grove",
+    text: "Beautiful design and interior of the store. Very cozy and calm atmosphere. Food to dine in or have lunch is delicious and beautifully served. Love the real dishes and silverware, water available as it should be for coffee drinkers to cleanse the palate. Variety is great and tempting to try the whole store... check them out!",
+    stars: 5,
+    date: "Mar 10, 2026"
+  },
+  {
+    author: "Jana Doroshko from Champlin",
+    text: "So happy to have discovered this gem! Amazing food market and deli with Eastern European delights! So much selection and so clean and well organized! Very friendly staff and service! The cafe/coffee shop side is so elegant.",
+    stars: 5,
+    date: "Mar 15, 2026"
+  },
+  {
+    author: "B Sprenger from Plymouth",
+    text: "This is a Ukrainian cafe/market. I had the Beef Stroganoff. It was served with mashed potatoes and several sliced pickles. I also had the Royal Cake (a three layer cake with each layer a different cake flavor). Food is exceptional. I will be back!",
+    stars: 5,
+    date: "Jun 1, 2026"
+  },
+  {
+    author: "George Knox from Maple Grove",
+    text: "My first time here and I was blown away by the sheer selection and quality of everything! From the staff's attention and service to the quality of food, 10/10. The best Borscht and Potato pierogies I've ever had! Certified George Knox approval, bravo!",
+    stars: 5,
+    date: "May 18, 2026"
+  },
+  {
+    author: "Gary Goreham from Rogers",
+    text: "A wonderful deli with a huge variety of delicious choices. The stroganoff, cabbage rolls, and pierogis were amazing and the servings were more than generous. The server (Larissa) was very friendly and helpful. We will definitely be going back with our friends!",
+    stars: 5,
+    date: "May 5, 2026"
+  },
+  {
+    author: "Ella Johnson from Corcoran",
+    text: "I don't know why more people aren't talking about this place! Great ambiance, very clean, and cozy modern. A large variety of pastries, yummy coffee, and food! I've had the avocado toast twice now and love it! Will definitely be back.",
+    stars: 5,
+    date: "May 12, 2026"
+  },
+  {
+    author: "Viktor Bondarenko from Osseo",
+    text: "Today I had a very pleasant experience shopping at this store. The customer service was excellent - the employee took the time to help me choose the right cervelat and really listened to my preferences. The store is clean and offers a great selection of European foods. I'll definitely be back.",
+    stars: 5,
+    date: "Jan 15, 2026"
+  },
+  {
+    author: "Anna Y from Brooklyn Center",
+    text: "Beautiful store and a cozy, stylish cafe. I'm quite picky with coffee and I loved it here. We also tried crepes with chicken, mushrooms, Kiev cake and Rafaelo cake - 10/10!",
+    stars: 5,
+    date: "Jan 22, 2026"
   }
 ];
 
