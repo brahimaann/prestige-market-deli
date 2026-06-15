@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4D6D3A;
+  --color-primary-hover: #3E572E;
+  --color-primary-light: rgba(77, 109, 58, 0.08);
+  --color-accent: #C59B27;
+  --color-accent-hover: #B38A1E;
+  --color-accent-light: rgba(197, 155, 39, 0.08);
+  
+  /* Inverted color variables for a clean, minimal light-themed brand */
+  --color-bg-dark: #FAF8F5; /* Warm light cream */
+  --color-bg-card: #FFFFFF; /* Pure white */
+  --color-bg-card-hover: #F4F1EA; /* Muted hover cream */
+  --color-text-light: #1A1A1A; /* Charcoal dark text */
+  --color-text-muted: #606F66; /* Softer olive grey text */
+  
+  --font-display: "Playfair Display", "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-brand: "Plus Jakarta Sans", sans-serif;
+  --font-script: "Alex Brush", cursive;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Custom Signature Script Utility */
+.font-signature {
+  font-family: var(--font-script);
+}
+
+html, body, #root {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.subtitle {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5rem;
+}
+
+.section-header h2 {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: var(--color-text-light);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .section-header h2 {
+    font-size: 2.75rem;
+  }
+}
+
+.section-header p {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.animate-ticker {
+  display: flex;
+  width: max-content;
+  animation: ticker 40s linear infinite;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
