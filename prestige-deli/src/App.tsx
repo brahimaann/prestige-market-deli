@@ -18,6 +18,9 @@ import CateringSection from "./components/CateringSection";
 import AboutSection from "./components/AboutSection";
 import FAQSection from "./components/FAQSection";
 
+// SEO Manager
+import useSEO from "./hooks/useSEO";
+
 // Static emoji-free Database
 import { 
   COMPLETE_MENU, 
@@ -41,6 +44,10 @@ interface CartItem {
 export default function App() {
   // Navigation & Page Routing state
   const [currentPage, setCurrentPage] = useState("home");
+  
+  // Dynamic SEO Structured Data and Metadata Manager
+  useSEO(currentPage);
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
 

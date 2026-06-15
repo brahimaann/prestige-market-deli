@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prestigemarketdeli.com/sitemap.xml
